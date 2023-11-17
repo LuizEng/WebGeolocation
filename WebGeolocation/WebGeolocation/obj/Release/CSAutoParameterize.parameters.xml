@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MDalConnectionDb-Web.config Connection String" description="MDalConnectionDb A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=webgeolocation.database.windows.net;Initial Catalog=webgeolocation_V1.0;User ID=Developer;Password=WebGeolocation//1515;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Luiz\\Documents\\Engenharia\\projeto-v\\WebGeolocation\\WebGeolocation\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MDalConnectionDb']/@connectionString" />
+  </parameter>
+  <parameter name="WebGeolocation.Models.WebDbContext-Web.config Connection String" description="WebGeolocation.Models.WebDbContext A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="WebGeolocation.Models.WebDbContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Luiz\\Documents\\Engenharia\\projeto-v\\WebGeolocation\\WebGeolocation\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WebGeolocation.Models.WebDbContext']/@connectionString" />
+  </parameter>
+</parameters>
